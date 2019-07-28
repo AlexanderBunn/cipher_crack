@@ -1,5 +1,4 @@
 # cipher_crack
-a C0MP6841 PR0JECT BY Z5146667
 ```
 ________________________________________________________________________________
 _________ .__       .__                  _________                       __     
@@ -9,8 +8,12 @@ _________ .__       .__                  _________                       __
  \______  /__|   __/|___|  /\___  >__|    \______  /|__|  (____  /\___  >__|_ \ 
         \/   |__|        \/     \/               \/            \/     \/     \/ 
 ________________________________________________________________________________
-```
+
+a C0MP6841 PR0JECT BY Z5146667
 
 This is project I completed for my intro to security course at UNSW.
 It is built on Keras / Tensorflow / DEAP and uses a convolutional 
 neural network and genetic algorithm to solve substitution ciphers.
+```
+
+
