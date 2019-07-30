@@ -59,7 +59,9 @@ class GeneticAlgorithm():
         for i in range(self.pop_size):
             pop[i].fitness.values = [fit[0][i][0]]
 
-        # COPIED CODE:
+        # Modification of the algorithm shown here: 
+        # https://deap.readthedocs.io/en/master/examples/ga_onemax.html
+        
         champ_counter = 0
         old_champ = self.toolbox.select(pop, 1)[0]
         for g in range(self.evolutions):
