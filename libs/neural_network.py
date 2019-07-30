@@ -128,7 +128,9 @@ class CNN(NeuralNetwork):
         return [X, X, X, X, X], labels
 
     def define_model(self):
-        # COPIED CODE
+        # Modification of the model shown here: 
+        # https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/
+        
         # channel 1
         inputs1 = Input(shape=(self.max_msg_len,))
         embedding1 = Embedding(input_dim=self.embed_len, output_dim=self.max_msg_len, input_length=self.max_msg_len)(inputs1)
